@@ -1,0 +1,47 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- ✅ Register Servlet -->
+    <servlet>
+        <servlet-name>Register_Servlet</servlet-name>
+        <servlet-class>p1.Register_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register_Servlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- ✅ Login Servlet -->
+    <servlet>
+        <servlet-name>Login_Servlet</servlet-name>
+        <servlet-class>p1.Login_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login_Servlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- ✅ Exam Servlet -->
+    <servlet>
+        <servlet-name>Exam_Servlet</servlet-name>
+        <servlet-class>p1.Exam_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Exam_Servlet</servlet-name>
+        <url-pattern>/ExamServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- ✅ Result Servlet (Fixed Name) -->
+    <servlet>
+        <servlet-name>Result_Servlet</servlet-name>
+        <servlet-class>p1.Result_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Result_Servlet</servlet-name>
+        <url-pattern>/Result_Servlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Bar Assignment</title>
+    <link rel="Stylesheet" href="Index.css">
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* Engineers Day Hero Section */
+        .engineers-day {
+            position: relative;
+            margin: 60px auto;
+            padding: 50px 30px;
+            max-width: 95%;
+            border-radius: 20px;
+            text-align: center;
+            color: #fff;
+            overflow: hidden;
+            background: rgba(0, 60, 0, 0.85);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+        }
+
+        /* Moving gradient waves */
+        .engineers-day::before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(0,255,128,0.3), rgba(255,215,0,0.3), transparent);
+            animation: wave 15s linear infinite;
+            z-index: 0;
+        }
+
+        /* Inner glass layer */
+        .engineers-day::after {
+            content: "";
+            position: absolute;
+            inset: 10px;
+            border-radius: 15px;
+            background: linear-gradient(135deg, rgba(0,80,0,0.7), rgba(0,120,0,0.6));
+            z-index: 1;
+        }
+
+        /* Text */
+        .engineers-day h2,
+        .engineers-day p {
+            position: relative;
+            z-index: 2;
+        }
+
+        .engineers-day h2 {
+            font-size: 42px;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-shadow: 3px 3px 12px rgba(0,0,0,0.9);
+            animation: glowText 2s ease-in-out infinite alternate;
+        }
+
+        .engineers-day p {
+            font-size: 22px;
+            line-height: 1.8;
+            font-weight: 600;
+            color: #f1f8e9;
+            text-shadow: 1px 1px 6px rgba(0,0,0,0.8);
+        }
+
+        .engineers-day span {
+            color: #ffcc00;
+            font-weight: bold;
+        }
+
+        /* Floating gears */
+        .gear {
+            position: absolute;
+            font-size: 90px;
+            color: rgba(255, 215, 0, 0.2);
+            z-index: 0;
+        }
+        .gear1 { top: 15%; left: 5%; animation: spin 20s linear infinite; }
+        .gear2 { bottom: 10%; right: 8%; font-size: 120px; animation: spinReverse 25s linear infinite; }
+        .gear3 { top: 50%; left: 85%; font-size: 70px; animation: spin 30s linear infinite; }
+
+        /* Animations */
+        @keyframes spin {
+            0% { transform: rotate(0deg);}
+            100% { transform: rotate(360deg);}
+        }
+        @keyframes spinReverse {
+            0% { transform: rotate(0deg);}
+            100% { transform: rotate(-360deg);}
+        }
+        @keyframes glowText {
+            from { text-shadow: 0 0 15px #ffd700, 0 0 25px #ffcc00; }
+            to { text-shadow: 0 0 25px #fff176, 0 0 35px #ffd700; }
+        }
+        @keyframes wave {
+            0% { transform: rotate(0deg);}
+            100% { transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><strong><i> Welcome to Sai Prasanna's Website </i></strong></h1>
+        <h3>Explore sections through the navigation bar above!</h3>
+    </div>
+
+    <div class="menu-bar">
+        <div>
+            <a href="Index.html">Home</a>
+            <a href="AlumniPage.html">Alumni</a>
+            <a href="Magazine.html">Magazine</a>   
+            <a href="login.jsp">Exam_Login</a>   
+            <a href="ContactPage.html">Contact Me</a>
+            <a href="Portfolio_SaiPrasanna.html">Portfolio</a>
+        </div>
+        <a href="mailto:saiprasanna.pachava999@gmail.com" class="email-link"><i>saiprasanna.pachava999@gmail.com</i></a>
+    </div>
+
+    <!-- Engineers' Day Hero Section -->
+    <div class="engineers-day">
+        <!-- Floating gears -->
+        <div class="gear gear1">⚙️</div>
+        <div class="gear gear2">⚙️</div>
+        <div class="gear gear3">⚙️</div>
+
+        <!-- Content -->
+        <h2>Happy Engineers' Day</h2>
+        <p>
+            On <span>15th September</span>, India pays tribute to 
+            <span>Sir M. Visvesvaraya</span>, the visionary engineer and Bharat Ratna awardee.  
+            <br><br>
+            Engineers are the <span>architects of innovation  </span>turning ideas into reality, 
+            and building the future of our nation.  
+            <br><br>
+            <i>Celebrate the brilliance, creativity, and power of engineering today.</i>
+        </p>
+    </div>
+
+    <div class="footer">
+        <p>Presented by <strong><b><i>Sai Prasanna Pachava Department of Computer Application's</i></b></strong></p>
+    </div>
+</body>
+</html>

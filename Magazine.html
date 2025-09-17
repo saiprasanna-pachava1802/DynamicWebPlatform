@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Computer Applications </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Banner Image Section */
+        .banner {
+            background-image: url('alumniIMG-04.png'); /* Your background image */
+            background-size: cover;
+            background-repeat: repeat-y; /* Repeats the image vertically */
+            background-position: center;
+            height: 500px;
+            position: relative;
+        }
+
+        /* Marquee Scroll for Information Technology */
+        .scrolling-text {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(0, 51, 102, 0.8); 
+            color: white;
+            font-size: 2.5em;
+            font-weight: bold;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            padding: 10px 0;
+            white-space: nowrap; 
+            overflow: hidden;
+        }
+
+        .scrolling-text span {
+            display: inline-block;
+            padding-left: 100%;
+            animation: scroll-text 12s linear infinite; /* Smooth scroll effect */
+        }
+
+        @keyframes scroll-text {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* Menu Bar Positioned Below the Banner */
+        nav {
+            position: relative;
+            top: 0;
+            width: 100%;
+            background-color: #003366;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.3em;
+            padding: 10px 15px;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: white;
+            color: #003366;
+            border-radius: 5px;
+        }
+
+        /* Intro and Other Sections */
+        .intro, .vision, .course-section {
+            padding: 50px;
+            text-align: center;
+            background-color: white;
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Add shadow for a detailed look */
+        }
+
+        .intro h2, .vision h2, .course-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #003366;
+        }
+
+        .intro p, .vision p, .course-section p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        /* Course Grid for Two Per Row */
+        .course-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two courses per row */
+            gap: 20px; /* Space between the courses */
+        }
+
+        /* Course Item Styling */
+        .course {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .course:hover {
+            transform: scale(1.05);
+        }
+
+        .course img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .course h3 {
+            font-size: 1.8em;
+            margin: 15px 0;
+            color: #003366;
+        }
+
+        .course p {
+            padding: 0 15px 15px 15px;
+            font-size: 1em;
+        }
+
+        /* Footer for Credits */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+            .course-grid {
+                grid-template-columns: 1fr; /* One column on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Banner Section with Scrolling Text -->
+    <div class="banner">
+
+        <div class="scrolling-text">
+            <span>...................FAILURE IS THE STEPPING STONE TO SUCCESS.........................</span>
+        </div>
+    </div>
+
+    <!-- Menu Bar Positioned Below the Banner -->
+    <nav>
+        <ul>
+            <li><a href="Magazine.html">Home</a></li>
+            <li><a href="AboutIT.html">About</a></li>
+            <li><a href="ContactPage.html">Contact</a></li>
+	    <li><a href="Index.html">Main Menu </a> </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="intro">
+        <h2>Welcome to the Department of Computer Applications</h2>
+        <p>Your future in technology begins here. Explore our cutting-edge courses and join a community that thrives on innovation and excellence.</p>
+    </div>
+
+    <div class="vision">
+        <h2>Our Vision</h2>
+        <p>To nurture a new generation of IT professionals capable of driving change and creating value in a global marketplace.</p>
+    </div>
+
+    <div class="course-section">
+        <h2>Explore Our Courses</h2>
+        <div class="course-grid">
+            <!-- Replace with your actual course images -->
+            <div class="course">
+                <img src="Informationtechnology-imag.png" alt="Course 1 Image">
+                <h3>Information Technology</h3>
+                <p>Learn programing languages, visualization, and machine learning techniques.</p>
+            </div>
+
+            <div class="course">
+                <img src="Bachalor of computer apllications-img.png" alt="Course 2 Image">
+                <h3>Bachalor of ComputerApllications</h3>
+                <p>Master AI algorithms, neural networks, and the future of automation.</p>
+            </div>
+
+            <div class="course">
+                <img src="Masterscomputerapplications-img.png" alt="Course 3 Image">
+                <h3>Masters in Computer Applications</h3>
+                <p>Understand how to protect systems, networks, and data from cyber threats.</p>
+            </div>
+
+            <div class="course">
+                <img src="phd-img.png" alt="Course 4 Image">
+                <h3>Ph.D Computer Applications</h3>
+                <p>Develop responsive and modern web applications using HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer for Credits -->
+    <footer>
+        <p>&copy; 2024 Department of Information Technology. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

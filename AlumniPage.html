@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignan University Alumni Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaeaea;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            background-color: rgba(51, 51, 51, 0.9);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .navbar h1 {
+            color: #00c6ff;
+            margin: 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #00c6ff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 15% 20px;
+            background-image: url('AlumniBGImage.png'); 
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            color: white;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        .hero h2, .hero p, .hero button {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #00c6ff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .hero button:hover {
+            background-color: #0072ff;
+            transform: scale(1.05);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background: rgba(51, 51, 51, 0.9);
+            color: white;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>Vignan University Alumni Network</h1>
+        <nav>
+            <a href="Index.html">Home</a>
+            <a href="https://vignan.ac.in/alumni/">About Us</a>
+            <a href="ContactPage.html">Contact</a>
+            
+        </nav>
+    </div>
+
+    <div class="hero">
+        <h2>Welcome to Our Alumni Page</h2>
+        <p>Stay connected with your fellow alumni!</p>
+       <button onclick="window.location.href='Alumni_Image.html'">Let's Go Through Alumni</button>
+
+
+
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Vignan University Alumni Network. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
