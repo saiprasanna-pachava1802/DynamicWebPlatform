@@ -61,6 +61,7 @@ Analytics & Reporting: The system produces multiple views: overall participation
 Security & Best Practices: All database access uses prepared statements to prevent SQL injection. Authentication uses session management with server-side checks before rendering protected JSP pages. Input validation is performed both client-side (for better UX) and server-side (for security). Passwords should be hashed in production (the code structure allows straightforward integration of hashing libraries).
 
 Scalability & Deployment: Designed for deployment on Apache Tomcat, the project separates static assets (CSS/JS/images) from dynamic content (JSP/Servlet) so standard servlet container scaling strategies (reverse proxy, multiple Tomcat instances, DB pooling) can be applied as usage grows.
+
 --
 
 ## Installation & Usage
