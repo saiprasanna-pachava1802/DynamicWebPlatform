@@ -6,8 +6,9 @@
 
 ## Overview
 
-A **full-stack web platform** designed for students and staff to manage online exams, alumni records, digital magazines, and portfolios.  
-Responsive front-end built with **HTML, CSS, JavaScript**; secure back-end using **Java, JSP, Servlets, JDBC, and MySQL**. Features role-based authentication and an admin dashboard for efficient content management. Deployed on **Apache Tomcat** for reliable performance.
+A **full-stack dynamic web platform** developed to streamline academic and institutional activities such as online examinations, alumni management, digital magazine publishing, student portfolios, and faculty feedback collection.
+The platform features a responsive front end built with **HTML, CSS, and JavaScript**, and a secure back end using **Java, JSP, Servlets, JDBC, and MySQL.** It includes role-based authentication, user management, and an admin dashboard for centralized content control.
+Deployed on **Apache Tomcat**, ensuring reliability, scalability, and smooth multi-user access.
 
 ---
 
