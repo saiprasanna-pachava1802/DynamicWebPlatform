@@ -27,5 +27,4 @@ Deployed on **Apache Tomcat**, ensuring reliability, scalability, and smooth mul
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/saiprasanna-pachava1802/DynamicWebPlatform.git
-you polish this now we integrated feedback fetaures in this and try to polish the all the content clealry and neetly b/c professionsl will read this 
+   git clone https://github.com/saiprasanna-pachava1802/DynamicWebPlatform.git 
