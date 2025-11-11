@@ -1,0 +1,77 @@
+ 
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('MenuBgImage.png') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .menu-bar {
+            background-color: rgba(0, 0, 0, 0.8);
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 15px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu-bar a {
+            color: white;
+            font-size: 18px;
+            padding: 15px 25px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: 0.3s ease;
+        }
+
+        .menu-bar a:hover {
+            background-color: #0072ff;
+            color: white;
+            border-radius: 5px;
+            transform: scale(1.1);
+        }
+
+        .email-link {
+            margin-right: 20px;
+        }
+
+        .footer {
+            background-color: rgba(0, 0, 0, 0.9);
+            text-align: center;
+            color: white;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer a {
+            color: #00c6ff;
+            text-decoration: none;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        

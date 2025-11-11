@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Light blue background */
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            background-color: #333; /* Dark background for navbar */
+        }
+
+        .navbar h1 {
+            color: #00c6ff;
+            margin: 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #00c6ff; /* Change color on hover */
+        }
+
+        .alumni-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .alumni-card {
+            background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+            border-radius: 15px;
+            margin: 15px;
+            padding: 20px;
+            width: 300px; /* Increased width */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Increased shadow */
+            text-align: center;
+            transition: transform 0.3s; /* Add transition effect */
+        }
+
+        .alumni-card:hover {
+            transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+
+        .alumni-card img {
+            width: 100%; /* Full width */
+            height: 200px; /* Fixed height */
+            border-radius: 15px;
+            object-fit: cover; /* Maintain aspect ratio */
+        }
+
+        .alumni-card h3 {
+            margin: 10px 0 5px 0;
+            font-size: 1.2em; /* Increase font size */
+        }
+
+        .alumni-card p {
+            font-size: 0.9em; /* Description font size */
+            color: #555; /* Darker gray for text */
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #333; /* Dark background for footer */
+            color: white;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>Alumni Gallery</h1>
+        <nav>
+            <a href="AlumniPage.html">Home</a>
+            <a href="ContactPage.html">Contact</a>
+        </nav>
+    </div>
+
+    <div class="alumni-container">
+        <div class="alumni-card">
+            <img src="alumniIMG-01.png" alt="Alumnus 1">
+            <h3>Batch: 2014-2018</h3>
+            <p>Passionate about technology and innovation.</p>
+            <p>Currently working as a Software Engineer at TechCorp.</p>
+        </div>
+        <div class="alumni-card">
+            <img src="alumniIMG-02.png" alt="Alumnus 2">
+            <h3>Batch: 2015-2019</h3>
+            <p>Entrepreneur and business enthusiast.</p>
+            <p>Founder of Green Solutions, an eco-friendly startup.</p>
+        </div>
+        <div class="alumni-card">
+            <img src="alumniIMG-03.png" alt="Alumnus 3">
+            <h3>Batch: 2016-2020</h3>
+            <p>Creative designer with a love for art and aesthetics.</p>
+            <p>Currently freelancing and exploring digital marketing.</p>
+        </div>
+        <div class="alumni-card">
+            <img src="alumniIMG-04.png" alt="Alumnus 4">
+            <h3>Batch: 2017-2021</h3>
+            <p>Data analyst specializing in machine learning.</p>
+            <p>Working with Big Data Analytics at DataTech.</p>
+        </div>
+	<div class="alumni-card">
+            <img src="alumniIMG-05.jpeg" alt="Alumnus 4">
+            <h3>Batch: 2018-2022</h3>
+            <p>Data analyst specializing in machine learning.</p>
+            <p>Working with Big Data Analytics at DataTech.</p>
+        </div>
+        <div class="alumni-card">
+            <img src="alumimg05.jpg" alt="Alumnus 4">
+            <h3>Batch: 2018-2022</h3>
+            <p>Data analyst specializing in machine learning.</p>
+            <p>Working with Big Data Analytics at DataTech.</p>
+        </div>
+        <div class="alumni-card">
+            <img src="alumniIMG-05.jpeg" alt="Alumnus 4">
+            <h3>Batch: 2018-2022</h3>
+            <p>Data analyst specializing in machine learning.</p>
+            <p>Working with Big Data Analytics at DataTech.</p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Vignan University Alumni Network. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
