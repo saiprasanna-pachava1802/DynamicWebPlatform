@@ -6,18 +6,20 @@
 
 ## Overview
 
-A **full-stack web platform** designed for students and staff to manage online exams, alumni records, digital magazines, and portfolios.  
-Responsive front-end built with **HTML, CSS, JavaScript**; secure back-end using **Java, JSP, Servlets, JDBC, and MySQL**. Features role-based authentication and an admin dashboard for efficient content management. Deployed on **Apache Tomcat** for reliable performance.
-
+A full-stack dynamic web platform developed to streamline academic and institutional operations, including online examinations, alumni management, digital magazine publishing, student portfolios, and faculty feedback collection.
+The platform features a responsive front end built with HTML, CSS, and JavaScript, and a secure back end developed using Java, JSP, Servlets, JDBC, and MySQL. It includes role-based authentication, user management, and an admin dashboard for centralized content and data control.
+Deployed on Apache Tomcat, ensuring reliable performance, scalability, and smooth multi-user access.
 ---
 
 ## Key Features
 
-- **Online Exams:** Create, manage, and evaluate exams dynamically.  
-- **Alumni Management:** Maintain and update alumni records efficiently.  
-- **Digital Magazines:** Upload and display magazines for users.  
-- **Portfolio Section:** Showcase projects and achievements.  
-- **Admin Dashboard:** Centralized control of users, content, and data.
+Online Exams: Create, manage, and evaluate exams dynamically.
+Alumni Management: Maintain and update alumni records efficiently.
+Digital Magazines: Upload and display digital magazines and newsletters.
+Portfolio Section: Showcase student projects, achievements, and skills.
+Faculty Feedback System: Collect subject-wise feedback from students, including ratings and comments for each faculty. Feedback data is stored and analyzed in the database to generate performance insights for continuous improvement.
+Admin Dashboard: Centralized control of users, exams, magazines, portfolios, and feedback data.
+Role-Based Authentication: Provides secure and separate access for students, faculty, and administrators.
 
 ---
 
