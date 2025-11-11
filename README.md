@@ -1,4 +1,4 @@
-# Dynamic Web Platform (Online Exams, Alumni, Magazines, Portfolio)
+# Full Stack Dynamic Web Platform (Online Exams, Alumni, Magazines, Portfolio,Feedback,Contact)
 
 [GitHub Repository](https://github.com/saiprasanna-pachava1802/DynamicWebPlatform) | [Live Demo](https://saiprasanna-pachava1802.github.io/DynamicWebPlatform/)
 
@@ -19,7 +19,6 @@ Ensure data integrity and privacy through prepared statements (JDBC), session-ba
 
 Keep the system modular and maintainable (clear separation of Java servlets, JSP views, JDBC data access, and front-end assets) to simplify future feature additions.
 
-Provide an easy deployment path on Apache Tomcat so colleges can host the platform on-premise or on cloud VMs.
 --
 ## Overview
 
